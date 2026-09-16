@@ -1,0 +1,16 @@
+[package]
+name = "quipu-identity"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Identidad criptográfica de la red quipu: keypairs ed25519, firmar y verificar"
+
+[dependencies]
+ed25519-dalek = { version = "2", features = ["rand_core", "zeroize"] }
+rand_core = "0.6"
+blake3 = "1"
+serde = { version = "1", features = ["derive"] }
+serde-big-array = "0.5"
+thiserror = "2"

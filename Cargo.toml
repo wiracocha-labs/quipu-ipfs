@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/quipu-identity",
+    "crates/quipu-store",
+    "crates/quipu-net",
+    "crates/quipu-node",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0"
+authors = ["Wiracocha Labs"]
+repository = "https://github.com/wiracocha-labs/quipu-ipfs"

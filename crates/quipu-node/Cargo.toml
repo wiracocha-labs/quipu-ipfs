@@ -1,0 +1,17 @@
+[package]
+name = "quipu-node"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Nodo demo de la red quipu: publica y recupera objetos firmados por hash"
+
+[dependencies]
+quipu-identity = { path = "../quipu-identity" }
+quipu-store = { path = "../quipu-store" }
+quipu-net = { path = "../quipu-net" }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1"

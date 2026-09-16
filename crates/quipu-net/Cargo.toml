@@ -1,0 +1,27 @@
+[package]
+name = "quipu-net"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Transporte P2P de la red quipu: descubrimiento mDNS + request/response de objetos por hash"
+
+[dependencies]
+quipu-store = { path = "../quipu-store" }
+quipu-identity = { path = "../quipu-identity" }
+libp2p = { version = "0.55", features = [
+    "tcp",
+    "noise",
+    "yamux",
+    "mdns",
+    "request-response",
+    "macros",
+    "tokio",
+] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+futures = "0.3"
+async-trait = "0.1"
+serde = { version = "1", features = ["derive"] }
+postcard = { version = "1", features = ["use-std"] }
+thiserror = "2"
