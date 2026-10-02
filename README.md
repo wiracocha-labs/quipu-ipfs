@@ -134,7 +134,7 @@ Revisa los [Issues abiertos](https://github.com/wiracocha-labs/quipu-ipfs/issues
 |---|---|---|
 | **quipu-ipfs** | Red P2P descentralizada *(este repo)* | 🔨 Fase 0 completa |
 | **[chaka](https://github.com/wiracocha-labs/chaka)** | Investigación: compresión de deltas entre versiones de modelo | 🔬 Investigando |
-| **[yachay](https://github.com/wiracocha-labs/yachay)** | Recomendador de modelos locales según hardware | 📋 Planeado |
+| **[yachay](https://github.com/wiracocha-labs/yachay)** | Recomendador de modelos locales según hardware | ✅ v0.1.0 |
 | **[chasqui](https://github.com/wiracocha-labs/chasqui-app)** | Plataforma de comunicación descentralizada (primer producto) | 🔨 En desarrollo |
 
 ---
