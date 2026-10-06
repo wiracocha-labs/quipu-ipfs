@@ -4,7 +4,7 @@
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Language: Rust](https://img.shields.io/badge/Language-Rust-orange.svg)](https://www.rust-lang.org/)
-[![Status: Fase 0](https://img.shields.io/badge/Status-Fase%200-yellow.svg)]()
+[![Status: Fase 1](https://img.shields.io/badge/Status-Fase%201-yellow.svg)]()
 [![Org: Wiracocha Labs](https://img.shields.io/badge/Org-Wiracocha%20Labs-purple.svg)](https://github.com/wiracocha-labs)
 
 ---
@@ -132,7 +132,7 @@ Revisa los [Issues abiertos](https://github.com/wiracocha-labs/quipu-ipfs/issues
 
 | Repositorio | Descripción | Estado |
 |---|---|---|
-| **quipu-ipfs** | Red P2P descentralizada *(este repo)* | 🔨 Fase 0 completa |
+| **quipu-ipfs** | Red P2P descentralizada *(este repo)* | 🔨 Fase 1 |
 | **[chaka](https://github.com/wiracocha-labs/chaka)** | Investigación: compresión de deltas entre versiones de modelo | 🔬 Investigando |
 | **[yachay](https://github.com/wiracocha-labs/yachay)** | Recomendador de modelos locales según hardware | ✅ v0.1.0 |
 | **[chasqui](https://github.com/wiracocha-labs/chasqui-app)** | Plataforma de comunicación descentralizada (primer producto) | 🔨 En desarrollo |

@@ -20,7 +20,7 @@ genérica, eventualmente la capa de IA distribuida).
 
 ---
 
-## Fase 0 — Fundamentos genéricos (corto plazo)
+## Fase 0 — Fundamentos genéricos ✅ completada (2026-09-19)
 
 Objetivo: validar que la arquitectura en capas funciona, con las piezas más
 simples y testeables posible, antes de meterle complejidad de red o cifrado.
